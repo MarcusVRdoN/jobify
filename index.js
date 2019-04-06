@@ -1,9 +1,10 @@
 var express = require("express");
 var sqlite = require("sqlite");
 var bodyParser = require("body-parser");
+var path = require("path");
 
 var app = express();
-var dbConnection = sqlite.open("banco.sqlite", { Promise });
+var dbConnection = sqlite.open(path.resolve(__dirname, "banco.sqlite"), { Promise });
 
 var port = process.env.PORT || 3000;
 
