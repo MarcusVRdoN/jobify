@@ -1,0 +1,21 @@
+{
+  "name": "jobify",
+  "version": "1.0.0",
+  "description": "Jobify is a simple job board for sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jobify",
+    "job"
+  ],
+  "author": "Marcus V. R. do Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "sqlite": "^3.0.3"
+  }
+}
