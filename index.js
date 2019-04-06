@@ -102,6 +102,8 @@ var init = async function() {
 }
 init();
 
+// Comment
+
 app.listen(3000, function(error) {
   if(error) {
     console.log("Não foi possível iniciar o servidor do Jobify");
