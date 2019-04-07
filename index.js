@@ -12,7 +12,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.use("/admin", function(request, response, next) {
-  if(request.hostname === "localhost") {
+  if(request.hostname === "localhost") { 
     next();
   }
   else {
